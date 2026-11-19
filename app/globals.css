@@ -622,3 +622,33 @@ textarea:focus {
     scroll-behavior: auto !important;
   }
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: inherit;
+}
+
+.logo-text span {
+  color: #2f8f72;
+  margin-left: 4px;
+}.logo img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 3px;
+}

@@ -84,22 +84,29 @@ export default async function Home() {
     <>
       <Tracker />
       <header className="nav-wrap">
-        <nav className="container nav">
-          <a className="logo" href="#">Axion<span>Creatives</span></a>
-          <div className="navlinks">
-            <a href="#about">About</a>
-            <a href="#works">Our work</a>
-            <a href="#services">Services</a>
-            <a href="#process">Process</a>
-            <a href="#support">After-service</a>
-            <a href="#contact">Contact</a>
-          </div>
-          <div className="navcta">
-            <a className="btn ghost" href="/client">Client login</a>
-            <a className="btn primary" href="#contact">Start a project</a>
-          </div>
-        </nav>
-      </header>
+  <nav className="container nav">
+    <a className="logo" href="/">
+      <img src="/logo.png" alt="Axion Creatives Logo" />
+      <span className="logo-text">
+        Axion<span>Creatives</span>
+      </span>
+    </a>
+
+    <div className="navlinks">
+      <a href="#about">About</a>
+      <a href="#works">Our work</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#support">After-service</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div className="navcta">
+      <a className="btn ghost" href="/client">Client login</a>
+      <a className="btn primary" href="#contact">Start a project</a>
+    </div>
+  </nav>
+</header>
 
       <main>
         <section className="container hero">
